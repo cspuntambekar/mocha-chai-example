@@ -1,0 +1,26 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "description": "",
+  "nyc": {
+    "check-coverage": true,
+    "per-file": true,
+    "lines": 80,    
+    "functions": 80,    
+    "reporter": [
+      "html"
+    ],
+    "report-dir": "./coverage"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.2.0"
+  }
+}
