@@ -1,6 +1,6 @@
 let chai = require('chai');
 chai.should();
-let Calculator = require('./calculator');
+let Calculator = require('../calculator');
 
 // Calculator suite
 describe('Calculator suite', () => {
